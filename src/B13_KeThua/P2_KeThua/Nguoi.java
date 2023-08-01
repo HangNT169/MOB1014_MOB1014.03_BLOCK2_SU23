@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package B11_String.P3_LuyenTap.bai1;
+package B13_KeThua.P2_KeThua;
 
 /**
  *
@@ -14,7 +14,20 @@ public class Nguoi {
     private int tuoi;
     private int gioiTinh;
     private String queQuan;
-    private String ngheNghiep;
+    private String sdt;
+    private String email;
+
+    public Nguoi() {
+    }
+
+    public Nguoi(String ten, int tuoi, int gioiTinh, String queQuan, String sdt, String email) {
+        this.ten = ten;
+        this.tuoi = tuoi;
+        this.gioiTinh = gioiTinh;
+        this.queQuan = queQuan;
+        this.sdt = sdt;
+        this.email = email;
+    }
 
     public String getTen() {
         return ten;
@@ -48,31 +61,28 @@ public class Nguoi {
         this.queQuan = queQuan;
     }
 
-    public String getNgheNghiep() {
-        return ngheNghiep;
+    public String getSdt() {
+        return sdt;
     }
 
-    public void setNgheNghiep(String ngheNghiep) {
-        this.ngheNghiep = ngheNghiep;
+    public void setSdt(String sdt) {
+        this.sdt = sdt;
     }
 
-    public Nguoi(String ten, int tuoi, int gioiTinh, String queQuan, String ngheNghiep) {
-        this.ten = ten;
-        this.tuoi = tuoi;
-        this.gioiTinh = gioiTinh;
-        this.queQuan = queQuan;
-        this.ngheNghiep = ngheNghiep;
+    public String getEmail() {
+        return email;
     }
 
-    public Nguoi() {
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public void inThongTin() {
-        System.out.println("ten" + ten);
-        System.out.println("tuoi" + tuoi);
-        System.out.println("gioi tinh" + gioiTinh);
-        System.out.println("que quan" + queQuan);
-        System.out.println("nghe nghiep" + ngheNghiep);
+    public void display() {
+        System.out.println("Ten :" + ten);
+        System.out.println("Tuoi:" + tuoi);
+        System.out.println("Gioi Tinh:" + gioiTinh);
+        System.out.println("Que Quan:" + queQuan);
+        System.out.println("sdt:" + sdt);
+        System.out.println("email:" + email);
     }
-
 }

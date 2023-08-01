@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package B11_String.P1_OnTap;
+package B12_String.P1_OnTap;
 
 import java.util.ArrayList;
 import java.util.Scanner;
